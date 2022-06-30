@@ -1,0 +1,22 @@
+.btn-success{
+    width:400px;
+    height:50px;
+    font-size:25px;
+    margin-bottom:35px;
+}
+
+.btn-primary:hover{
+    background-color: aqua;
+}
+
+@keyframes ani_color{
+    from{box-shadow:1px 1px 45px red;}
+    to{box-shadow: 1px 1px 45px purple;}
+}
+
+canvas{
+    animation-name:ani_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top:150px;
+}
